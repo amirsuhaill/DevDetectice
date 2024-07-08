@@ -41,6 +41,7 @@ async function setDefalut(){
     const month = fetched_date[5]+fetched_date[6];
     const year = fetched_date[0]+fetched_date[1]+fetched_date[2]+fetched_date[3];
 
+    
     joindate.innerText = "joined: " + date + "-" + month + "-" + year;
     
 
